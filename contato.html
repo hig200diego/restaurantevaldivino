@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="title" content="Restaurante Valdivino Cabrobó">
+    <meta name="description" content="O Restaurante Valdivino em Cabrobó-PE tem um cardápio delicioso com receitas caseiras. 
+    O restaurante é aberto 24 horas. Venha saborear de nossos pratos.">
+    <meta name="keywords" content="Restaurante Valdivino, Comidas caseiras, Restaurante Cabrobó, Restaurante Posto Valdivino">
+    <title>Restaurante Valdivino | Restaurante de Comida Caseira em Cabrobó-PE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav id="navbar" class="bg-dark">
+        <h1 class="logo">
+            <i class="fas fa-utensils bg-primary"></i> Restaurante
+            <span class="text-primary">Valdivino</span>
+        </h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="contato.php">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Showcase -->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1>Avenida Nilo Coelho, 560, Cabrobó - PE</h1>
+            <div class="tel">
+                <i class="fas fa-phone"></i>  (87) 3875-2338
+            </div>
+        </div>
+    </header>
+
+    <!-- Formulário para Contato-->
+    <h2 class="titulo">Fale <span class="text-primary">Conosco</span></h2>
+    <section id="form">
+        <div class="form-content">
+            <form action="form.php" method="POST">
+                <div class="form-area">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Seu Nome">
+                </div>
+                <div class="form-area">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Seu Email">
+                </div>
+                <div class="form-area">
+                    <label for="phone">Celular</label>
+                    <input type="text" name="phone" id="phone" placeholder="Seu Numero de Celular">
+                </div>
+                <div class="form-area">
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" placeholder="Escreva sua Mensagem Aqui..."></textarea>
+                </div>
+                <input class="btn-primary btn-send" type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h4>Horário</h4>
+            <i class="fas fa-clock"></i> Aberto 24 horas
+        </div>
+        <div>
+            <h4>Contato</h4>
+            <ul>
+                <li><i class="fas fa-phone"></i> (87) 3875-2338</li>
+                <li><i class="fab fa-whatsapp-square"></i> (87) 99119-4455</li>
+                <li><i class="fas fa-envelope"></i> restaurantevald@gmail.com</li>
+                <li><i class="fas fa-map-signs"></i> Avenida Nilo Coelho, 560, Alto da Temperatura,
+                    Cabrobó - PE, 56180-000
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h4>Curta nossa página no Facebook!</h4>
+            <div class="fb-page" data-href="https://www.facebook.com/anarcleziosouza" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/anarcleziosouza" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/anarcleziosouza">Restaurante e lanchonete valdivino</a></blockquote></div>
+        </div>
+    </footer>
+    <div class="author">
+        Desenvolvido por <a href="https://www.instagram.com/hig200diego/" target="_blank">Diego Freire</a><br>
+        Todos os Direitos Reservados &copy; | 2019
+    </div>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.2&appId=1527372240710371&autoLogAppEvents=1"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
